@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    let screenRouter = ScreenRouter(rootScreen: .start, factory: ScreenRouterFactory())
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        MainView()
+            .environmentObject(screenRouter)
     }
 }
 

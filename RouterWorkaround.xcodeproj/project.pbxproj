@@ -11,6 +11,16 @@
 		A2B0DD76283CCF58002C5E66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DD75283CCF58002C5E66 /* ContentView.swift */; };
 		A2B0DD78283CCF5B002C5E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B0DD77283CCF5B002C5E66 /* Assets.xcassets */; };
 		A2B0DD7B283CCF5B002C5E66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B0DD7A283CCF5B002C5E66 /* Preview Assets.xcassets */; };
+		A2B0DD87283CCF83002C5E66 /* NavigationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DD82283CCF83002C5E66 /* NavigationNode.swift */; };
+		A2B0DD88283CCF83002C5E66 /* RouterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DD83283CCF83002C5E66 /* RouterFactory.swift */; };
+		A2B0DD89283CCF83002C5E66 /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DD84283CCF83002C5E66 /* Routing.swift */; };
+		A2B0DD8A283CCF83002C5E66 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DD85283CCF83002C5E66 /* Router.swift */; };
+		A2B0DD8B283CCF83002C5E66 /* View + Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DD86283CCF83002C5E66 /* View + Cover.swift */; };
+		A2B0DD90283CD079002C5E66 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DD8F283CD079002C5E66 /* MainView.swift */; };
+		A2B0DD92283CD499002C5E66 /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DD91283CD499002C5E66 /* StartingView.swift */; };
+		A2B0DD94283CD5FF002C5E66 /* RoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DD93283CD5FF002C5E66 /* RoutesView.swift */; };
+		A2B0DD96283CD86C002C5E66 /* FullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DD95283CD86C002C5E66 /* FullScreenView.swift */; };
+		A2B0DD98283CD8B0002C5E66 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DD97283CD8B0002C5E66 /* SheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		A2B0DD75283CCF58002C5E66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2B0DD77283CCF5B002C5E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2B0DD7A283CCF5B002C5E66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2B0DD82283CCF83002C5E66 /* NavigationNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationNode.swift; sourceTree = "<group>"; };
+		A2B0DD83283CCF83002C5E66 /* RouterFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterFactory.swift; sourceTree = "<group>"; };
+		A2B0DD84283CCF83002C5E66 /* Routing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
+		A2B0DD85283CCF83002C5E66 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		A2B0DD86283CCF83002C5E66 /* View + Cover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View + Cover.swift"; sourceTree = "<group>"; };
+		A2B0DD8F283CD079002C5E66 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A2B0DD91283CD499002C5E66 /* StartingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
+		A2B0DD93283CD5FF002C5E66 /* RoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesView.swift; sourceTree = "<group>"; };
+		A2B0DD95283CD86C002C5E66 /* FullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenView.swift; sourceTree = "<group>"; };
+		A2B0DD97283CD8B0002C5E66 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,8 @@
 		A2B0DD72283CCF58002C5E66 /* RouterWorkaround */ = {
 			isa = PBXGroup;
 			children = (
+				A2B0DD8C283CD042002C5E66 /* Screens */,
+				A2B0DD81283CCF6B002C5E66 /* Router */,
 				A2B0DD73283CCF58002C5E66 /* RouterWorkaroundApp.swift */,
 				A2B0DD75283CCF58002C5E66 /* ContentView.swift */,
 				A2B0DD77283CCF5B002C5E66 /* Assets.xcassets */,
@@ -65,6 +87,30 @@
 				A2B0DD7A283CCF5B002C5E66 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2B0DD81283CCF6B002C5E66 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A2B0DD82283CCF83002C5E66 /* NavigationNode.swift */,
+				A2B0DD85283CCF83002C5E66 /* Router.swift */,
+				A2B0DD83283CCF83002C5E66 /* RouterFactory.swift */,
+				A2B0DD84283CCF83002C5E66 /* Routing.swift */,
+				A2B0DD86283CCF83002C5E66 /* View + Cover.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A2B0DD8C283CD042002C5E66 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A2B0DD8F283CD079002C5E66 /* MainView.swift */,
+				A2B0DD91283CD499002C5E66 /* StartingView.swift */,
+				A2B0DD93283CD5FF002C5E66 /* RoutesView.swift */,
+				A2B0DD95283CD86C002C5E66 /* FullScreenView.swift */,
+				A2B0DD97283CD8B0002C5E66 /* SheetView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +183,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2B0DD92283CD499002C5E66 /* StartingView.swift in Sources */,
+				A2B0DD89283CCF83002C5E66 /* Routing.swift in Sources */,
+				A2B0DD96283CD86C002C5E66 /* FullScreenView.swift in Sources */,
 				A2B0DD76283CCF58002C5E66 /* ContentView.swift in Sources */,
+				A2B0DD87283CCF83002C5E66 /* NavigationNode.swift in Sources */,
 				A2B0DD74283CCF58002C5E66 /* RouterWorkaroundApp.swift in Sources */,
+				A2B0DD8B283CCF83002C5E66 /* View + Cover.swift in Sources */,
+				A2B0DD94283CD5FF002C5E66 /* RoutesView.swift in Sources */,
+				A2B0DD8A283CCF83002C5E66 /* Router.swift in Sources */,
+				A2B0DD90283CD079002C5E66 /* MainView.swift in Sources */,
+				A2B0DD98283CD8B0002C5E66 /* SheetView.swift in Sources */,
+				A2B0DD88283CCF83002C5E66 /* RouterFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
